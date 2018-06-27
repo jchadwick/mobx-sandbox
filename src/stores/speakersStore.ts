@@ -1,20 +1,31 @@
 import { Speaker, Gender } from "../model";
-import { BaseStore } from "./baseStore";
+import { BaseStore, StoreStatus } from "./baseStore";
 import { IObservableArray, observable } from "mobx";
-
-const speakersStubData: Speaker[] = [
-    [ "jess-chadwick", "Jess Chadwick", Gender.Male ],
-    [ "todd-snyder", "Todd Synder", Gender.Male ],
-    [ "suz-hinton", "Suz Hinton", Gender.Female ],
-    [ "fish", "Fish", Gender.Complicated ],
-].map(([key, name, gender], id) => Object.assign(new Speaker(), {
-    id, key, name, gender
-}));
+import { SessionsStore } from "./sessionsStore";
+import { lazyObservable } from "mobx-utils";
+import SpeakersService from "../services/speakersService";
 
 export class SpeakersStore extends BaseStore {
-    private speakers: IObservableArray<Speaker> = observable(speakersStubData);
+  @observable speakers: IObservableArray<Speaker> = observable([]);
 
-    getSpeakers(): IObservableArray<Speaker> {
-        return this.speakers;
+  load() {
+    this.status = StoreStatus.Loading;
+
+    const sessionsStore = this.rootStore.getStore(SessionsStore);
+
+    if(sessionsStore.status === StoreStatus.Unintialized) {
+        sessionsStore.load();
     }
+    
+    const speakers = SpeakersService.getAllSpeakers().map(x =>
+      new Speaker(
+        x,
+        lazyObservable((sink) => sink(sessionsStore.getSessionsBySpeakerId(x.id)), [])
+      )
+    );
+
+    this.speakers.replace(speakers);
+
+    this.status = StoreStatus.Loaded;
+  }
 }

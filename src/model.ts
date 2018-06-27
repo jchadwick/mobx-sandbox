@@ -19,6 +19,8 @@ export class Session {
   private speakerThunk: ILazyObservable<Speaker>;
   private timeSlotThunk: ILazyObservable<TimeSlot>;
 
+  speakerId: number;
+
   @observable key?: string;
   @observable type: "Presentation" | "Keynote" | "Break" | "Reserved";
   @observable title: string;
@@ -26,20 +28,24 @@ export class Session {
   @observable length: SessionLength;
   @observable year?: number;
   @observable attendeeCount?: number;
-  
-  @computed 
+
+  @computed
   get location(): Location {
     return this.locationThunk.current();
   }
 
-  @computed 
+  @computed
   get speaker(): Speaker {
     return this.speakerThunk.current();
   }
-  
-  @computed 
+
+  @computed
   get timeSlot(): TimeSlot {
     return this.timeSlotThunk.current();
+  }
+
+  constructor(source?: any) {
+    Object.assign(this, source);
   }
 }
 
@@ -47,12 +53,12 @@ export enum SessionLength {
   "Short" = "Short",
   "Medium" = "Medium",
   "Long" = "Long",
-  "Lightning" = "Lightning",
+  "Lightning" = "Lightning"
 }
 
 export class Speaker {
-  private sessionsThunk?: ILazyObservable<IObservableArray<Session>>;
-  private submissionsThunk?: ILazyObservable<IObservableArray<Submission>>;
+  private sessionsThunk?: ILazyObservable<Session[]>;
+  private submissionsThunk?: ILazyObservable<Submission[]>;
   private userThunk?: ILazyObservable<User>;
 
   private id: number;
@@ -68,18 +74,30 @@ export class Speaker {
   @observable company?: string;
 
   @computed
-  get sessions(): IObservableArray<Session> {
+  get sessions(): Session[] {
     return this.sessionsThunk.current();
   }
 
   @computed
-  get submissions(): IObservableArray<Submission> {
+  get submissions(): Submission[] {
     return this.submissionsThunk.current();
   }
 
   @computed
   get userDisplayName() {
     return this.userThunk.current().displayName;
+  }
+
+  constructor(
+    source?: any,
+    sessionsThunk?: ILazyObservable<Session[]>,
+    submissionsThunk?: ILazyObservable<Submission[]>,
+    userThunk?: ILazyObservable<User>
+  ) {
+    Object.assign(this, source);
+    this.sessionsThunk = sessionsThunk;
+    this.submissionsThunk = submissionsThunk;
+    this.userThunk = userThunk;
   }
 }
 

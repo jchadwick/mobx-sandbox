@@ -71,7 +71,7 @@ declare namespace Api {
         type?: "Presentation" | "Keynote" | "Break" | "Reserved";
         title: string;
         description: string;
-        length: "Short" | "Medium" | "Long" | "Lightning";
+        length?: "Short" | "Medium" | "Long" | "Lightning";
         categoryId: number; // int64
         speakerId: number; // int64
         timeSlotId?: number; // int64
