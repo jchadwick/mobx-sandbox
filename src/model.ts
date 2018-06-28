@@ -2,10 +2,10 @@ import { observable, IObservableArray, computed, action } from "mobx";
 import { ILazyObservable } from "mobx-utils";
 
 export enum Gender {
-  Male = "Male",
-  Female = "Female",
-  Complicated = "Complicated",
-  Undisclosed = "Undisclosed"
+  Undisclosed = 0,
+  Male = 1,
+  Female = 2,
+  Complicated = 3,
 }
 
 export class Location {

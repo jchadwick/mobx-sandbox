@@ -2,50 +2,77 @@ import * as React from "react";
 import { Component } from "react";
 import { Speaker, Gender } from "../../model";
 import { observer } from "mobx-react";
-import { computed } from "mobx";
-import { defineViewModel } from "../../utils";
-
-const InputFormField = ({ label, model, field }) => {
-  return (
-    <div className="form-group">
-      <label>{label}</label>
-      <input
-        type="text"
-        className="form-control"
-        value={model[field]}
-        onChange={evt => (model[field] = evt.target.value)}
-      />
-    </div>
-  );
-};
+import { computed, action } from "mobx";
+import { defineViewModel } from "../../util";
+import { FormGroup, InputFormField, EnumDropDownFormField } from "../../util/forms";
+import { VmDetails } from "../../util/vmDetails";
+import cn from "classnames";
+import { IViewModel } from "mobx-utils";
 
 const SpeakerDetailsEditorVm = defineViewModel(Speaker, {
   showSessions: false
 });
 
 @observer
-export class SpeakerDetailsEditor extends Component<{ speaker: Speaker }, never> {
+export class SpeakerDetailsEditor extends Component<
+  { speaker: Speaker; onSpeakerSaved?: (speaker: IViewModel<Speaker>) => void },
+  never
+> {
   @computed
   get speaker() {
     return SpeakerDetailsEditorVm.wrap(this.props.speaker);
   }
 
   render() {
+    const { onSpeakerSaved: triggerSave } = this.props;
     const speaker = this.speaker;
 
     return (
       <div>
-        <form>
-          <InputFormField model={speaker} field={"key"} label="Key" />
-          <InputFormField model={speaker} field={"gender"} label="Gender" />
-          <InputFormField model={speaker} field={"name"} label="Name" />
-          <InputFormField model={speaker} field={"biography"} label="Biography" />
-          <InputFormField model={speaker} field={"avatarUrl"} label="Avatar" />
-          <InputFormField model={speaker} field={"city"} label="City" />
-          <InputFormField model={speaker} field={"state"} label="State" />
-          <InputFormField model={speaker} field={"country"} label="Country" />
-          <InputFormField model={speaker} field={"company"} label="Company" />
-        </form>
+        <div className="row">
+          <form>
+            <FormGroup label="Key" className="col-md-3">
+              <InputFormField model={speaker} field={"key"} />
+            </FormGroup>
+            <FormGroup label="Name" className="col-md-4">
+              <InputFormField model={speaker} field={"name"} />
+            </FormGroup>
+            <FormGroup label="Company" className="col-md-5">
+              <InputFormField model={speaker} field={"company"} />
+            </FormGroup>
+            <FormGroup label="Gender" className="col-md-3">
+              <EnumDropDownFormField model={speaker} field={"gender"} enumType={Gender} />
+            </FormGroup>
+            <FormGroup label="Avatar URL" className="col-md-9">
+              <InputFormField model={speaker} field={"avatarUrl"} className="input-sm" />
+            </FormGroup>
+            <FormGroup label="Biography" className="col-md-12">
+              <InputFormField model={speaker} field={"biography"} />
+            </FormGroup>
+            <FormGroup label="City" className="col-md-5">
+              <InputFormField model={speaker} field={"city"} />
+            </FormGroup>
+            <FormGroup label="State" className="col-md-4">
+              <InputFormField model={speaker} field={"state"} />
+            </FormGroup>
+            <FormGroup label="Country" className="col-md-3">
+              <InputFormField model={speaker} field={"country"} />
+            </FormGroup>
+          </form>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12 text-right">
+            <button
+              onClick={() => triggerSave(speaker)}
+              className={cn("btn btn-primary", { disabled: !speaker.isDirty })}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+
+        <VmDetails viewModel={speaker} />
       </div>
     );
   }
