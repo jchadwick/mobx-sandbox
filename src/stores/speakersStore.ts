@@ -3,7 +3,7 @@ import { BaseStore, StoreStatus } from "./baseStore";
 import { IObservableArray, observable, computed, toJS } from "mobx";
 import { SessionsStore } from "./sessionsStore";
 import { lazyObservable, IViewModel } from "mobx-utils";
-import SpeakersService from "../services/speakersService";
+import { SpeakersApi } from "../services";
 
 const ascending = (a, b) => a - b;
 const descending = (a, b) => b - a;
@@ -43,16 +43,18 @@ export class SpeakersStore extends BaseStore {
       sessionsStore.load();
     }
 
-    const speakers = SpeakersService.getAllSpeakers().map(
-      x =>
-        new Speaker(
-          x,
-          lazyObservable(sink => sink(sessionsStore.getSessionsBySpeakerId(x.id)), [])
+    new SpeakersApi()
+      .speakersGet()
+      .then(speakers =>
+        speakers.map(
+          x =>
+            new Speaker(
+              x,
+              lazyObservable(sink => sink(sessionsStore.getSessionsBySpeakerId(x.id)), [])
+            )
         )
-    );
-
-    this.speakers.replace(speakers);
-
-    this.status = StoreStatus.Loaded;
+      )
+    .then(speakers => this.speakers.replace(speakers))
+    .then(() => this.status = StoreStatus.Loaded);
   }
 }

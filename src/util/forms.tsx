@@ -45,3 +45,16 @@ export const InputFormField = observer(({ model, field = null, className = "", p
     />
   );
 });
+
+export const TextAreaFormField = observer(({ model, field = null, rows = 5, className = "", placeholder="" }) => {
+  const updateValue = action((evt: any) => (model[field] = evt.target.value));
+  return (
+    <textarea
+      rows={rows}
+      className={cn(className, "form-control")}
+      placeholder={placeholder}
+      value={model[field] || ''}
+      onChange={updateValue}
+    />
+  );
+});

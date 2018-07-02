@@ -86,6 +86,7 @@ export class SpeakersPage extends Component<{ speakersStore?: SpeakersStore }, n
             ) : this.mode === "edit" ? (
               <SpeakerDetailsEditor
                 speaker={this.selectedSpeaker}
+                onCancel={() => this.mode = "view"}
                 onSpeakerSaved={this.save}
               />
             ) : (
