@@ -24,8 +24,8 @@ export default [
         "name": "Jason van Brackel",
         "biography": "Jason van Brackel is a Solutions Architect with Rancher Labs. He uses a combination of tools to provide systems and software integration solutions for organizations leveraging Kubernetes. Previously, Jason was a consultant in the Philadelphia region, where he designed and developed business solutions for clients across various industries.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/703296330727350273/2BdNTPYV.jpg",
-        "Company": "Solutions Architect, Apprenda",
-        "Notes": ""
+        "company": "Solutions Architect, Apprenda",
+        "notes": ""
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@ export default [
         "name": "Jeffrey Fritz",
         "biography": "Jeffrey T. Fritz is a senior program manager in Microsoft’s Development Division that delivers Visual Studio and the .NET development platform.  As a long time web developer with experience in large and small applications across a variety of verticals, he knows how to build for performance and practicality.  He is the author of the book, ‘Learn ASP.NET Core in 24 Hours’ and leads the ASP.NET 4.x and NuGet teams.  You can also learn from Jeffrey on Pluralsight, Wintellect, follow him on twitter @csharpfritz, and read his blogs at jeffreyfritz.com and blogs.msdn.com/webdev",
         "avatarUrl": "https://raw.githubusercontent.com/csharpfritz/csharpfritz.github.com/master/Jeff_Fritz_Photo_Color._326jpg.jpg",
-        "Company": "Senior Program Manager, Microsoft"
+        "company": "Senior Program Manager, Microsoft"
     },
     {
         "id": 7,
@@ -89,7 +89,7 @@ export default [
         "name": "Paul Hacker",
         "biography": "Paul Hacker has over 15 years of application architecture, design, development, and management expertise in Microsoft technologies. Paul has a depth of experience in ALM, Process Improvement, and Team Foundation Server.  Having distinguished himself as a leader in the IT industry he has been awarded the distinction of Microsoft MVP in the ALM category every year since 2006.Over the years Paul has proven his expertise in Application Lifecycle Management and has demonstrated his professionalism and commitment to the continuous process of managing the life of an application through governance, development and maintenance.\r\n",
         "avatarUrl": "https://pbs.twimg.com/profile_images/659426184229425152/_05lxgV-_400x400.jpg",
-        "Company": "Microsoft MVP"
+        "company": "Microsoft MVP"
     },
     {
         "id": 11,
@@ -163,7 +163,7 @@ export default [
         "name": "Oren Novotny",
         "biography": "Oren is a Principal Architect at BlueMetal Architects.  He is passionate about reducing friction in the development process and enabling other developers to create portable cross-platform applications using .NET.  Named a Microsoft MVP for Windows Platform Development in 2014, Microsoft MVP for Visual Studio and Development Technologies in 2016, Xamarin MVP in 2016, and member of the .NET Foundation Advisory Council in 2017, he has been writing code on the Microsoft platform since the days a 2400 baud modem was considered cutting-edge. His prior experience ranges from building identity solutions for global organizations, developing real-time trading systems dealing with massive amounts of data to the complex data models of equity derivatives and the regulatory needs of Medicaid claims processing. He believes that technology is meaningless in a vacuum and strives to show how the bleeding-edge delivers superior value to the clients’ bottom line.",
         "avatarUrl": "https://i1.wp.com/oren.codes/wp-content/uploads/2014/07/headshot-new.jpg",
-        "Company": "Principal Architect, BlueMetal Architects"
+        "company": "Principal Architect, BlueMetal Architects"
     },
     {
         "id": 20,
@@ -206,8 +206,8 @@ export default [
         "name": "Steve Michelotti",
         "biography": "Steve Michelotti works for Microsoft on the Azure Government team, focusing on developer enablement. He is a contributing author for Pluralsight training and a member of ASPInsiders. Before joining Microsoft, he was a 7-time Microsoft MVP in ASP.NET. In addition, Steve is a frequent presenter at developer user groups, conferences, and Code Camps along the East Coast. Steve is an avid blogger (http://stevemichelotti.com), has contributed articles to Visual Studio Magazine, and his work on high performance web solutions was featured on Channel 9. Before Microsoft, he served as an Architect/Developer for Applied Information Sciences (AIS) where he led numerous projects including a multi-year effort to modernize the business systems of a major insurance carrier. Previously he was the Chief Technologist at e.magination where he consulted with clients including Advertising.com/AOL where he was the Tech Lead for one of the highest volume .NET applications in the world.",
         "avatarUrl": "http://cdn.stevemichelotti.com/images/steve.michelotti.2013-234.jpg",
-        "Company": "Microsoft",
-        "Notes": "NOT Wednesday"
+        "company": "Microsoft",
+        "notes": "NOT Wednesday"
     },
     {
         "id": 27,
@@ -217,8 +217,8 @@ export default [
         "name": "Nate Barbettini",
         "biography": "Nate is a developer, author, and speaker who specializes in full-stack .NET and JavaScript. He hails from San Francisco, but calls Texas home. He's passionate about helping others learn how to write better, more secure code.",
         "avatarUrl": "https://f001.backblazeb2.com/file/nate-public/new-headshot-medium.jpg",
-        "Company": "Developer, Author, and Speaker ",
-        "Notes": "NOT Friday"
+        "company": "Developer, Author, and Speaker ",
+        "notes": "NOT Friday"
     },
     {
         "id": 28,
@@ -250,11 +250,11 @@ export default [
         "name": "Ken Dale",
         "biography": "Ken Dale is a software developer and Microsoft MVP with much of his current technology focus centered around the .NET web stack, JavaScript, and cloud technologies. Outside the realms of software, Ken is a musician who enjoys food eaten with chopsticks and travel.",
         "avatarUrl": "https://www.gravatar.com/avatar/19c1d76389b58d1b972fc2be013bcc73.png?s=965",
-        "City": "Harrisburg",
-        "State": "PA",
-        "Country": "USA",
-        "Company": "Developer and Microsoft MVP",
-        "Notes": "Friday"
+        "city": "Harrisburg",
+        "state": "PA",
+        "country": "USA",
+        "company": "Developer and Microsoft MVP",
+        "notes": "Friday"
     },
     {
         "id": 32,
@@ -319,7 +319,7 @@ export default [
         "name": "Jim Wooley",
         "biography": "By day, Jim Wooley is a Solution Architect for Slalom Consulting, In his free time, Jim is a frequent speaker, MVP, and author of \"LINQ in Action\". He is always striving to stay at the forefront of technology and enjoys the thrill of a new challenge. He has been active evangelizing LINQ since its announcement in 2005. In addition, he attempts to pass on the insights he has gained by being active in the community, including organizing and speaking at code camps and regional events, including MIX, VS Live, CodeMash, KCDC, That Conference, DevWeek, and CodeStock.",
         "avatarUrl": "https://cotbstorage.blob.core.windows.net/speakerphotos/41305df8-a586-4811-9895-3ea39caddeb9.jpg",
-        "Company": "Solution Architect, Slalom Consulting"
+        "company": "Solution Architect, Slalom Consulting"
     },
     {
         "id": 40,
@@ -337,11 +337,11 @@ export default [
         "name": "Sam Basu",
         "biography": "Sam Basu is a technologist, author, speaker, Microsoft MVP, gadget-lover and Progress Developer Advocate for Telerik products. With a long developer background, he now spends much of his time advocating modern web/mobile/cloud development platforms on Microsoft/Telerik technology stacks. His spare times call for travel, fast cars, cricket and culinary adventures with the family. You can find him on the internet.\r\n",
         "avatarUrl": "https://samidipbasu.files.wordpress.com/2014/12/headshot.jpg",
-        "City": "Erie",
-        "State": "PA",
-        "Country": "USA",
-        "Company": "Progress Developer Advocate, Telerik ",
-        "Notes": ""
+        "city": "Erie",
+        "state": "PA",
+        "country": "USA",
+        "company": "Progress Developer Advocate, Telerik ",
+        "notes": ""
     },
     {
         "id": 42,
@@ -502,7 +502,7 @@ export default [
         "name": "Dave Voyles",
         "biography": "Dave Voyles is a construction worker turned Technical Evangelist at Microsoft and it based out of Philadelphia, PA. His role has him working with students and startups across the country, to help get their projects off the ground.\r\n\r\nHis work frequently has him working with game consoles, web development, and high performance mobile applications.",
         "avatarUrl": "http://www.davevoyles.com/wp-content/uploads/2016/02/David_Voyles-6_jpg.jpg",
-        "Company": "Technical Evangelist, Microsoft "
+        "company": "Technical Evangelist, Microsoft "
     },
     {
         "id": 61,
@@ -529,9 +529,9 @@ export default [
         "name": "Scott Kay",
         "biography": "Scott Kay is a software engineer at eMoney Advisor working with a talented team of developers to continuously improve and optimize their application stack and server infrastructure. He has been involved with .NET since it's inception, first as a Microsoft Evangelist and continuing through his local developer community. Beyond .NET, he dabbles in the Go programming language and data/multimedia compression.",
         "avatarUrl": "http://www.digimain.net/talks/profile.jpg",
-        "State": "Pennsylvania",
-        "Country": "United States",
-        "Company": "Software Engineer, eMoney Advisor "
+        "state": "Pennsylvania",
+        "country": "United States",
+        "company": "Software Engineer, eMoney Advisor "
     },
     {
         "id": 64,
@@ -541,7 +541,7 @@ export default [
         "name": "Stephen Bohlen",
         "biography": "Currently a Principal Software Engineer for the Commercial Software Engineering (CSE) Team within Microsoft Corporation, Stephen brings his varied 25-plus-years of experience in software and technology to assist select Microsoft Partner organizations in their adoption of cutting-edge and pre-release Microsoft developer products and technologies.\r\n\r\nStephen is also an active contributor to several .NET Open-Source Software projects including NHibernate, Spring.NET, NDbUnit, Common.Logging, and others.  Stephen is also a past Microsoft MVP award recipient, a member of the ASP Insiders and Visual C# Insiders, and formerly held the office of the Vice President of INETA, North America. \r\n",
         "avatarUrl": "http://hallwayconversations.com/wp-content/uploads/2014/02/Steve-Bohlen-headshot.png",
-        "Company": "Principal Software Engineer, Microsoft"
+        "company": "Principal Software Engineer, Microsoft"
     },
     {
         "id": 65,
@@ -560,10 +560,10 @@ export default [
         "name": "Joseph Guadagno",
         "biography": "For 20 years or so I have been in Software Development. During that time I have used many tools, languages, and technologies. I started out programming with a small book on QuickBASIC. I later moved on to Visual Basic for DOS. Windows then came along and I starting using Visual Basic for Windows, I then migrated to Visual Basic .NET and eventually ended up using Visual C#. I work as a Team Leader at Quicken Loans, based in Detroit, MI. I am a public speaker and present internationally on a lot of different technology topics, a list of them are available at http://www.josephguadagno.net/presentations/.  I have been recognized as a Microsoft MVP in .NET (since 2009) and a Friends of Red Gate program (since 2015).",
         "avatarUrl": "http://www.gravatar.com/avatar/aa71ca5bd3d5fdf40adb8f139cffd169?s=250",
-        "City": "Mesa",
-        "State": "AZ",
-        "Country": "US",
-        "Company": "Team Leader, Quicken Loans"
+        "city": "Mesa",
+        "state": "AZ",
+        "country": "US",
+        "company": "Team Leader, Quicken Loans"
     },
     {
         "id": 67,
@@ -573,11 +573,11 @@ export default [
         "name": "Ashley Grant",
         "biography": "Ashley Grant is a Microsoft MVP for Front End Development and Community Lead for the Aurelia JavaScript Framework. Ashley blogs at https://aurelia.ninja when he isn't training developers to be successful building their apps with Aurelia. His goal is to lead developers in to the pit of success for all their front-end work!",
         "avatarUrl": "http://ndcsydney.com/images/speaker/Ashley_M_Grant.jpg",
-        "City": "Tallahassee",
-        "State": "FL",
-        "Country": "USA",
-        "Company": "Community Lead for the Aurelia JavaScript Framework",
-        "Notes": ""
+        "city": "Tallahassee",
+        "state": "FL",
+        "country": "USA",
+        "company": "Community Lead for the Aurelia JavaScript Framework",
+        "notes": ""
     },
     {
         "id": 68,
@@ -614,7 +614,7 @@ export default [
         "name": "Chris Houdeshell",
         "biography": "Hello. I’m Chris. I’m a bit herder, a pointer wrecker, and HTTP is my best friend.\r\n\r\nI’m comfortable in both system languages and languages that make the cloud fluffy. I love all modern technology but a special place is reserved in my heart for IoT, embedded devices, distributed systems and anything that has a content-type.\r\n\r\nDuring the day, I conjure up software as an Assistant Vice President at EnergyCAP. Or I just have meetings about conjuring up software.\r\n\r\nI also drink a bit too much coffee while rambling on about technology. If you are willing to have a conversation – I am ready to buy you a cup. Just email me at choudeshell@gmail.com",
         "avatarUrl": "https://pbs.twimg.com/profile_images/581556328100835328/hA4r7qSm.jpg",
-        "Company": "Assistant Vice President at EnergyCAP"
+        "company": "Assistant Vice President at EnergyCAP"
     },
     {
         "id": 72,
@@ -658,9 +658,9 @@ export default [
         "name": "JP Toto",
         "biography": "I’m JP Toto, an infrastructure software developer, Pluralsight author, and occasional speaker. I work at a fairly well known producer of fine \"shorty\" sandwiches and fast-casual dining fare where I help automate our infrastructure and spread the gospel of Devops.",
         "avatarUrl": "http://jptoto.jp/wp-content/uploads/2014/04/twitter_bc.png",
-        "City": "Berwyn",
-        "State": "PA",
-        "Country": "USA"
+        "city": "Berwyn",
+        "state": "PA",
+        "country": "USA"
     },
     {
         "id": 77,
@@ -679,7 +679,7 @@ export default [
         "name": "Kendall Miller",
         "biography": "Kendall Miller is one of the founding partners of Gibraltar Software, an Independent Software Vendor (ISV) that develops & markets commercial applications for .NET developers.  Introduced commercially in 2009, Loupe is an application logging & monitoring platform that is currently used by customers around the world from individual consultants through Fortune 100 companies and governments.\r\n\r\nBefore starting Gibraltar Software, Kendall worked for multiple startups leading their technology development from beginning through profitability.  In each case he's focused on translating enterprise-level performance and capabilities down to smaller companies. Kendall has a B.S in Computer Engineering from the University of Illinois, Urbana-Champaign.",
         "avatarUrl": "http://www.gravatar.com/avatar/7eb0510ecb75c570bdd393dc4bbfd883?s=200",
-        "Company": "Founding Partner, Gibraltar Software"
+        "company": "Founding Partner, Gibraltar Software"
     },
     {
         "id": 79,
@@ -751,7 +751,7 @@ export default [
         "name": "Ondrej Balas",
         "biography": "Ondrej is the owner of UseTech Design, a Michigan-based development company that focuses primarily on .NET and other Microsoft technologies. Ondrej is also a Microsoft MVP in Visual Studio and Development Technologies, a writer for Visual Studio Magazine, and is very active in the Michigan software development community. Ondrej works across many industries including finance, healthcare, manufacturing, and logistics. Areas of expertise include similarity and matching across large data sets, algorithm design, distributed architecture, and software development practices.",
         "avatarUrl": "http://utdes.com/Theme/images/user_ondrej.jpg",
-        "Company": "Microsoft MVP and Owner, UseTech Design"
+        "company": "Microsoft MVP and Owner, UseTech Design"
     },
     {
         "id": 87,
@@ -814,7 +814,7 @@ export default [
         "name": "Lee Brandt",
         "biography": "After almost two decades writing software professionally (and a few years unprofessionally before that), Lee Brandt still continues to learn every day. He has led teams in small and large companies and always manages to keep the business needs at the forefront of software development efforts. He speaks internationally about software development, from both a technical and business perspective, and loves to teach others what he learns. Lee writes software in Objective-C, JavaScript and C#… mostly. He is a Microsoft Most Valuable Professional in Visual C# and one of the directors of the Kansas City Developer Conference (KCDC). Lee is a decorated Gulf War veteran, a husband, a proud pet parent and loves to play the drums whenever he gets any spare time.",
         "avatarUrl": "https://s3-us-west-2.amazonaws.com/kcdc/images/speakers/Lee-Brandt.png",
-        "Company": "Microsoft MVP"
+        "company": "Microsoft MVP"
     },
     {
         "id": 95,
@@ -933,8 +933,8 @@ export default [
         "name": "Eran Stiller",
         "biography": "Eran Stiller is a software architect, consultant, instructor and technology addict. With many years of experience in software development and architecture, Eran is recognized as a Microsoft MVP on Microsoft Azure for his contribution to technical communities worldwide. \r\n\r\nA Co-Founder at CodeValue Ltd., Eran practices software architecture at various clients on an almost daily basis, reviewing many designs in many professional fields. As the leader of CodeValue’s Cloud Division, Eran is in charge of learning and promoting the usage of public cloud platforms throughout CodeValue’s projects and customer solutions. \r\n\r\nEran instructs various software courses and workshops and is a frequent public speaker at various events, meetups and user groups on topics he finds especially interesting. Furthermore, Eran is a co-organizer of Azure Israel, which meets every once in a while to discuss all things related to Microsoft Azure. He is also an upcoming Pluralsight author, currently working on his first course.",
         "avatarUrl": "http://stiller.blog/blog/wp-content/uploads/2017/02/Profile-Image-300.jpg",
-        "Company": "CodeValue",
-        "Notes": "NOT Friday;  Needs room covered - sharing with Eran"
+        "company": "CodeValue",
+        "notes": "NOT Friday;  Needs room covered - sharing with Eran"
     },
     {
         "id": 109,
@@ -961,8 +961,8 @@ export default [
         "name": "Jeremy Clark",
         "biography": "Jeremy Clark makes developers better. By drawing on over 15 years of experience in application development, he helps developers take a step up in their skillset with a focus on making complex topics approachable regardless of skill level. He is a Microsoft MVP for .NET, and he has authored seven courses for Pluralsight, including \"C# Interfaces\", a course aimed at giving developers a clear understanding of abstraction. He loves speaking and has delivered over 200 technical presentations over the last 7 years in the United States and Europe. Jeremy lives in northwestern Washington with 2 cats, 2 dogs, a banjo, and a beautiful partner. http://www.jeremybytes.com",
         "avatarUrl": "http://www.jeremybytes.com/Images/Jeremy_Clark_med.jpg",
-        "Company": "Developer and Microsoft MVP",
-        "Notes": ""
+        "company": "Developer and Microsoft MVP",
+        "notes": ""
     },
     {
         "id": 112,
@@ -979,7 +979,7 @@ export default [
         "name": "Erika Carlson",
         "biography": "Erika Carlson was studying psychology in 2011 when she wrote her first line of Python code. She fell in love with programming, decided to change paths, and became a software developer. Since then she has built Java enterprise software, created websites for non-profits, and worked on iOS applications with millions of users. She is currently the Director of Apprenticeship at Detroit Labs. Erika founded the Detroit chapter of Girl Develop It, and teaches programming and web development to students of all ages. She is passionate about the potential of technology to make a difference in people's lives and create positive change in the world.",
         "avatarUrl": "http://i267.photobucket.com/albums/ii316/serendipitybaby/erika-web-2-crop_zpsmxdrktlk.jpg",
-        "Notes": "Needs room covered"
+        "notes": "Needs room covered"
     },
     {
         "id": 114,
@@ -989,7 +989,7 @@ export default [
         "name": "Gajan Pathmanathan",
         "biography": "Gajan is a quality evangelist, an automation enthusiast, and an enabler, with about 14 years of experience in designing, developing and testing software. He is currently the leader of the Enterprise Quality Architecture team at Quicken Loans, where he is responsible for implementing solutions and strategies for continuous quality and Quality-Driven Development at the enterprise level, which encompasses about 100+ cross-functional delivery teams. Prior to joining Quicken Loans, Gajan worked at Intel/McAfee as a lead engineer and led the team that was responsible for defining quality process across the organization, especially test automation process. Gajan holds a Master’s Degree in Computer Engineering from the University of Waterloo, Canada. He comfortably “speaks” about 10 languages – 7 programming languages, and 3 natural languages. In his spare time, Gajan enjoys playing racquetball/squash, some biking, and photography.",
         "avatarUrl": "https://twitter.com/gajanp/profile_image?size=original",
-        "Company": "Quicken Loans"
+        "company": "Quicken Loans"
     },
     {
         "id": 115,
@@ -997,8 +997,8 @@ export default [
         "userId": "43b0e0fc-0bba-4d44-bf7e-39f04a528ff4",
         "gender": 1,
         "name": "Calvin Allen",
-        "State": "OH",
-        "Country": "USA"
+        "state": "OH",
+        "country": "USA"
     },
     {
         "id": 116,
@@ -1008,9 +1008,9 @@ export default [
         "name": "Doug Mair",
         "biography": "Doug is a Principal Consultant at Improving Enterprises in Columbus Ohio. He started developing software as a high school freshman on a TRS-80 16K. Since then he developed software for Graphics Kiosks, Rules Engines, Specialized Hardware and ASP.Net websites. Over the last few years, he has helped grow the Windows Developer Community in Central Ohio and he spends his free time developing Windows applications and Unity games.",
         "avatarUrl": "https://www.gravatar.com/avatar/574559cb74e566feace8fd4e0525451c?s=200",
-        "City": "Columbus",
-        "State": "Ohio",
-        "Country": "United States"
+        "city": "Columbus",
+        "state": "Ohio",
+        "country": "United States"
     },
     {
         "id": 117,
@@ -1027,8 +1027,8 @@ export default [
         "name": "Danny Brown",
         "biography": "Senior Web Developer at Asteris, Inc.",
         "avatarUrl": "http://dannyrb.com/assets/img/headshot-128.jpg",
-        "Company": "Team Lead, Homeside Financial, LLC ",
-        "Notes": "Needs room covered"
+        "company": "Team Lead, Homeside Financial, LLC ",
+        "notes": "Needs room covered"
     },
     {
         "id": 119,
@@ -1141,11 +1141,11 @@ export default [
         "name": "Richard Taylor",
         "biography": "I am a 25 year software development and technology professional living in Huntersville, NC. My experience includes the design and development of small to enterprise class applications.  For the last 10 years, I have focused on web based applications and that is where my passion lives.  I have a great deal of experience but I do like to explore new technologies, tools, and techniques to help create better software.\r\n\r\nWhen not developing software, I am focused on spending time with my lovely wife Shondrecca and our five children. (Richard, Ayanna, David, Jonathan, and Stephen)\r\n\r\nRichard\r\nrtaylor@rightincode.com",
         "avatarUrl": "https://s.gravatar.com/avatar/0d22251b18adde612a8434bdc9c486e4?s=80",
-        "City": "Huntersville",
-        "State": "North Carolina",
-        "Country": "United States",
-        "Company": "Founder, New Oak Software, LLC",
-        "Notes": ""
+        "city": "Huntersville",
+        "state": "North Carolina",
+        "country": "United States",
+        "company": "Founder, New Oak Software, LLC",
+        "notes": ""
     },
     {
         "id": 135,
@@ -1155,10 +1155,10 @@ export default [
         "name": "Alon Fliess",
         "biography": "Alon is the Chief Architect and a co-founder of CodeValue. CodeValue is a leading software company, consists of locally and internationally acclaimed technology experts. CodeValue delivers a full-spectrum of software services, builds and designs software tools, foundations and products. Our flagship product is OzCode – an Amazing debugging add-on for Visual Studio. CodeValue is a Microsoft Partner in two domains - Software Development and Cloud Platform.\r\nWith more than 25 years of experience Alon has done many major software development, design and architecture for global leading and cutting edge companies.\r\nAlon is recognized as a Microsoft Regional Director and a Microsoft Azure MVP. \r\nFind more in http://alonfliess.me",
         "avatarUrl": "https://aboutme.imgix.net/background/users/a/l/o/alon_fliess_1472063740_5.jpg",
-        "City": "Binyamina",
-        "Country": "Israel",
-        "Company": "Founder and Chief Architect, CodeValue",
-        "Notes": ""
+        "city": "Binyamina",
+        "country": "Israel",
+        "company": "Founder and Chief Architect, CodeValue",
+        "notes": ""
     },
     {
         "id": 136,
@@ -1168,7 +1168,7 @@ export default [
         "name": "Anne Bougie",
         "biography": "Anne Bougie is a Senior Software Developer at Concurrency, Inc. Anne has been in software development since the mid-90s in many different roles including developer, architect, business analyst, tester, project manager and teacher. She has expertise in a variety of languages and platforms and enjoys speaking as an opportunity to break down complex technical topics to help other understand them. She has been developing for the cloud since 2009. When she is not coding, she is either maintaining her beehives or playing with Arduino projects for beekeeping. Her blog is at http://www.bougiefever.com\r\n\r\n",
         "avatarUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAecAAAAJDhjNjUxYTFmLWY1ZDgtNDRjYy05Mzc1LTQ1NWU0OTIxZWM0MQ.jpg",
-        "Company": "Senior Software Developer at Concurrency, Inc."
+        "company": "Senior Software Developer at Concurrency, Inc."
     },
     {
         "id": 138,
@@ -1194,7 +1194,7 @@ export default [
         "gender": 1,
         "name": "Kevin Griffin",
         "avatarUrl": "https://pbs.twimg.com/profile_images/735154467591557121/Q6Al4T29_400x400.jpg",
-        "Notes": "Needs room covered"
+        "notes": "Needs room covered"
     },
     {
         "id": 143,
@@ -1204,8 +1204,8 @@ export default [
         "name": "Nick Landry",
         "biography": "Nick Landry (@ActiveNick) is a mobility pioneer and former entrepreneur specializing in cross-platform mobile app development for Windows, iOS and Android devices. Nick works at Microsoft as a Senior Technical Evangelist in the New York Metro area. He spent most his career in IT consulting, software and services companies across various technical and business roles, designing, building, managing and selling innovative software products and solutions for the world’s top brands and Fortune 500 companies.\r\n\r\nKnown for his dynamic and engaging style, he is a frequent speaker at major software development conferences worldwide, was a 10-year Microsoft MVP awarded on Windows Phone Development, and a Nokia Developer Ambassador & Champion. With 25 years of professional experience, Nick is a certified developer and software architect by trade and specializes in Cross-Platform Mobility, Computer Speech & Bots, IoT, Cloud, GIS, HoloLens and Mobile Game Development. He is an active coder, occasional author, avid gamer, loving husband and proud father.",
         "avatarUrl": "https://avatars3.githubusercontent.com/u/1775629",
-        "Company": "Senior Technical Evangelist, Microsoft",
-        "Notes": "NOT Friday"
+        "company": "Senior Technical Evangelist, Microsoft",
+        "notes": "NOT Friday"
     },
     {
         "id": 144,
@@ -1220,9 +1220,9 @@ export default [
         "userId": "fe1ce44d-0d0f-4f58-88fb-5efc3e36eb7b",
         "gender": 1,
         "name": "Greg Plum",
-        "City": "Newark",
-        "State": "DE",
-        "Country": "US"
+        "city": "Newark",
+        "state": "DE",
+        "country": "US"
     },
     {
         "id": 146,
@@ -1239,9 +1239,9 @@ export default [
         "userId": "c9c12314-169e-4dc2-8ddc-98dbc6e65c60",
         "gender": 1,
         "name": "Jerry Nixon",
-        "City": "Denver",
-        "State": "Colorado",
-        "Country": "United States"
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States"
     },
     {
         "id": 148,
@@ -1257,8 +1257,8 @@ export default [
         "userId": "d5bf5cbe-b508-4672-b967-08396c203e81",
         "gender": 1,
         "name": "Cecil Phillip",
-        "City": "Fort Lauderdale",
-        "State": "Florida"
+        "city": "Fort Lauderdale",
+        "state": "Florida"
     },
     {
         "id": 150,
@@ -1290,9 +1290,9 @@ export default [
         "name": "Matthew Groves",
         "biography": "Matthew D. Groves is a guy who loves to code.  It doesn't matter if it's C#, jQuery, or PHP: he'll submit pull requests for anything.  He has been coding ever since he wrote a QuickBASIC point-of-sale app for his parent's pizza shop back in the 90s.  He currently works as a Developer Advocate for Couchbase. His free time is spent with his family, watching the Reds, and getting involved in the developer community.  He is the author of AOP in .NET (published by Manning), and is also a Microsoft MVP.",
         "avatarUrl": "https://crosscuttingconcerns.blob.core.windows.net:443/images/mebricks_200.jpg",
-        "City": "Grove City",
-        "State": "Ohio",
-        "Country": "USA"
+        "city": "Grove City",
+        "state": "Ohio",
+        "country": "USA"
     },
     {
         "id": 154,
@@ -1309,9 +1309,9 @@ export default [
         "userId": "64788f59-c07b-4e3c-98fd-e6af8cb0ff59",
         "gender": 2,
         "name": "Kristy Meade",
-        "City": "Las Vegas",
-        "State": "NV",
-        "Country": "United States"
+        "city": "Las Vegas",
+        "state": "NV",
+        "country": "United States"
     },
     {
         "id": 156,
@@ -1335,9 +1335,9 @@ export default [
         "userId": "58d7a719-fce1-452d-9779-747f951ebc44",
         "gender": 0,
         "name": "Luis Ferreira",
-        "City": "Braga",
-        "State": "Braga",
-        "Country": "Portugal"
+        "city": "Braga",
+        "state": "Braga",
+        "country": "Portugal"
     },
     {
         "id": 159,
@@ -1347,9 +1347,9 @@ export default [
         "name": "Kendrick Coleman",
         "biography": "Kendrick Coleman is a reformed sysadmin and virtualization junkie. His attention has shifted from hypervisors to cloud native platforms focused on containers. In his role as a Developer Advocate for {code} by Dell EMC, he works with a team to write solutions for running persistent applications in containers, build a community, and publish all things open source. He is a Docker Captain and frequently blogs about storage and containers. His free time is spent sharing bourbon industry knowledge hosting the Bourbon Pursuit Podcast. Kendrick tweets over at @kendrickcoleman",
         "avatarUrl": "https://pbs.twimg.com/profile_images/805827324486807552/4-IrMIU-_400x400.jpg",
-        "City": "Louisville",
-        "State": "KY",
-        "Country": "United States"
+        "city": "Louisville",
+        "state": "KY",
+        "country": "United States"
     },
     {
         "id": 160,
@@ -1366,9 +1366,9 @@ export default [
         "name": "Scott Addie",
         "biography": "Scott Addie is an avid blogger, a Telerik Developer Network author, and a technical evangelist of the modern web. Scott has reached masses of developers through blog posts, articles, and speaking engagements at user groups, code camps, and conferences across North America. With a strong emphasis on JavaScript and the Microsoft web technology stack, Scott holds numerous industry-recognized Microsoft development certifications and has been named a Microsoft MVP in the award category of Visual Studio and Development Technologies. His thought leadership in the .NET community has also earned him a seat in the Telerik Developer Experts program. As a firm believer in giving back to the community, Scott is a frequent open source contributor to high-profile GitHub projects, including ASP.NET Core, OmniSharp, Visual Studio Code, and a plethora of Visual Studio proper extensions.",
         "avatarUrl": "http://gravatar.com/avatar/38127f5f13c6e5ca4606a01d25d391b2?s=300",
-        "City": "Madison",
-        "State": "WI",
-        "Country": "United States"
+        "city": "Madison",
+        "state": "WI",
+        "country": "United States"
     },
     {
         "id": 162,
@@ -1378,9 +1378,9 @@ export default [
         "name": "Scott Showalter ",
         "biography": "For over 10 years, Scott has been pushing teams to thrive at crafting experiences for users of digital and physical products in a diversity of industries including security, banking, dining, public safety, transit and mobility. Scott does nothing without first making connections with real users, understanding their journey, empathizing with their needs, and considering how they think and work to accomplish their goals within the context of the problem space.",
         "avatarUrl": "https://lh3.googleusercontent.com/-PkYkaqr-ziI/AAAAAAAAAAI/AAAAAAAAAAA/AMcAYi_0saGmjCVx33Wy0aIbzd9X8U71pQ/s96-c-mo/photo.jpg",
-        "City": "Perrysburg ",
-        "State": "Ohio ",
-        "Country": "US"
+        "city": "Perrysburg ",
+        "state": "Ohio ",
+        "country": "US"
     },
     {
         "id": 163,
@@ -1396,9 +1396,9 @@ export default [
         "userId": "83d656e9-b456-4489-8af2-1a9a22dae3c6",
         "gender": 2,
         "name": "Lisa Ghisolf",
-        "City": "Long Grove, IL",
-        "State": "IL",
-        "Country": "USA"
+        "city": "Long Grove, IL",
+        "state": "IL",
+        "country": "USA"
     },
     {
         "id": 165,
@@ -1408,7 +1408,7 @@ export default [
         "name": "Damian Brady",
         "biography": "Damian works for Microsoft as a Cloud Developer Advocate in the League of Extraordinary Cloud DevOps Advocates team.\r\n\r\nAn ex-Microsoft MVP and developer at Octopus Deploy, he's also a Pluralsight Author, and co-author of Professional Team Foundation Server 2013 from Wiley. He's based in Toronto Canada, but when back in Australia, he co-organises the Brisbane .NET User Group, and the annual DeveloperDeveloperDeveloper Brisbane conference.\r\n\r\nDamian regularly speaks at conferences, User Groups, and other events around the world, but most of the time you'll find him talking to developers and IT Pros to help them get the most out of their DevOps strategies.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/888400091056402433/So-pRg96_400x400.jpg",
-        "Company": "Cloud Developer Advocate, Microsoft"
+        "company": "Cloud Developer Advocate, Microsoft"
     },
     {
         "id": 166,
@@ -1418,9 +1418,9 @@ export default [
         "name": "Ryan Booz",
         "biography": "Ryan is the VP of Business Intelligence & CTO at EnergyCAP, Inc. where he has led both IT and development over the last 14 years. Most recently, Ryan has been spearheading a team tasked with bringing the power of BI to staff and clients through industry leading DevOps practices. His mission is to provide the confidence and freedom to explore data in new and tangible ways.\r\n \r\nRyan is a long-time DBA, starting with MySQL and Postgres in the late 90s. He has been working with SQL Server since 2004, supporting an international client base and a thriving SaaS application that hosts thousands of users. He’s at the top of his game when he's learning something new about the data platform or teaching others about the technology he loves.",
         "avatarUrl": "https://en.gravatar.com/userimage/27043985/1c908cc45b23309ac74295e5b94101f7.jpg?size=200",
-        "City": "Centre Hall",
-        "State": "Pennsylvania",
-        "Country": "United States"
+        "city": "Centre Hall",
+        "state": "Pennsylvania",
+        "country": "United States"
     },
     {
         "id": 167,
@@ -1429,9 +1429,9 @@ export default [
         "gender": 1,
         "name": "Fernando Perales",
         "avatarUrl": "https://en.gravatar.com/userimage/37971091/5a9656bb67e48867896db5ba55fb7ae9.jpg?size=200",
-        "City": "Guadalajara",
-        "State": "Jalisco",
-        "Country": "Mexico"
+        "city": "Guadalajara",
+        "state": "Jalisco",
+        "country": "Mexico"
     },
     {
         "id": 168,
@@ -1455,8 +1455,8 @@ export default [
         "userId": "a582e1ab-2862-4790-ab4f-b4c90e24df1c",
         "gender": 1,
         "name": "Uri Goldstein",
-        "City": "Tel-Aviv",
-        "Country": "Israel"
+        "city": "Tel-Aviv",
+        "country": "Israel"
     },
     {
         "id": 171,
@@ -1466,10 +1466,10 @@ export default [
         "name": "Josh Garverick",
         "biography": "Microsoft MVP Josh Garverick is a seasoned IT professional with more than 15 years’ enterprise experience working in several large industries (finance, healthcare, transportation, logistics). He specializes in Application Lifecycle Management and is currently involved with DevOps and architecture projects, focusing specifically on software architecture and enterprise needs. Josh is a Visual Studio ALM Ranger, providing guidance, practical experience, and solutions to the developer community. When not geeking out over technology and architecture frameworks, he enjoys spending time with his wife and daughter.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/863219131470020608/TrWRahdY_400x400.jpg",
-        "City": "Akron",
-        "State": "NY",
-        "Country": "USA",
-        "Company": "Microsoft MVP and ALM Ranger"
+        "city": "Akron",
+        "state": "NY",
+        "country": "USA",
+        "company": "Microsoft MVP and ALM Ranger"
     },
     {
         "id": 172,
@@ -1496,9 +1496,9 @@ export default [
         "name": "Robert Hurlbut",
         "biography": "Robert Hurlbut is an independent software security consultant and trainer and owner of Robert Hurlbut Consulting Services. Robert is a Microsoft MVP for Developer Security and holds the (ISC)2 CSSLP security certification. He has 30 years of industry experience in secure coding, software architecture, and software development. He has served as a project manager, director of software development, and chief software architect for several projects. He speaks at user groups, national and international conferences, and provides training for many clients. Robert is a co-host with Chris Romeo of the Application Security Podcast at https://www.appsecpodcast.org.",
         "avatarUrl": "https://rhcs-content.azureedge.net/images/Software-Security-Consultant-Robert-Hurlbut-2017.jpg",
-        "City": "Enfield",
-        "State": "CT",
-        "Country": "USA"
+        "city": "Enfield",
+        "state": "CT",
+        "country": "USA"
     },
     {
         "id": 175,
@@ -1513,9 +1513,9 @@ export default [
         "userId": "2891e17b-85d3-4b7b-992b-0d5467e4f709",
         "gender": 2,
         "name": "Clarissa Peterson",
-        "City": "Calgary",
-        "State": "AB",
-        "Country": "Canada"
+        "city": "Calgary",
+        "state": "AB",
+        "country": "Canada"
     },
     {
         "id": 177,
@@ -1533,7 +1533,7 @@ export default [
         "name": "Donovan Brown",
         "biography": "Meet The Man in the Black Shirt. Donovan Brown is a Senior DevOps Program Manager on Microsoft's US Developer Division team. Why is DevOps one of the hottest topics? Because it hurts the most. Luckily, Donovan's unofficial tag line is #RubDevOpsOnIt and he's here to make it all better. Before joining Microsoft, Donovan spent seven years as a Process Consultant and a Certified Scrum Master. Developer Tools are his thing. Donovan has travelled the globe helping companies in the U.S., Canada, India, Germany, and the UK develop solutions using agile practices, Visual Studio, and Team Foundation Server in industries as broad as Communications, Health Care, Energy, and Financial Services. What else keeps the wheels spinning on The Man in The Black Shirt? Donovan's also an avid programmer, often finding ways to integrate software into his other hobbies and activities, one of which is Professional Air Hockey where he has ranked as high as 11 in the world.",
         "avatarUrl": "https://f.ch9.ms/avatar/84f8db1f-019c-4742-b3f6-b34b72ad98ea.png",
-        "Company": "Senior DevOps Program Manager, Microsoft"
+        "company": "Senior DevOps Program Manager, Microsoft"
     },
     {
         "id": 180,
@@ -1543,8 +1543,8 @@ export default [
         "name": "Ambrose Little",
         "biography": "Ambrose has been crafting software professionally since the late nineties in companies ranging from tiny shops to large enterprises, making both internal corporate and commercial software.  Currently, he's a senior software engineer at CentralReach, a SaaS provider that makes practice management software for healthcare providers serving children with autism. While doing full-stack dev with C#, ServiceStack, SQL Server, and AWS, he's more keen on front-end development with React, MobX, and all the standard Web dev techs.\r\n\r\nIn his career, Ambrose has held many roles spanning most disciplines in software development: developer, architect, product manager, interaction designer, and various leadership/director roles. He's worked in and led software efforts in many contexts and many stacks, and loves tackling new challenges with the purpose of making great software experiences for people and having a good time while doing it. ",
         "avatarUrl": "https://www.gravatar.com/avatar/2ecf7db2bfe14cd28c158d7a86699bda?s=256",
-        "Company": "CentralReach",
-        "Notes": ""
+        "company": "CentralReach",
+        "notes": ""
     },
     {
         "id": 181,
@@ -1552,7 +1552,7 @@ export default [
         "gender": 0,
         "name": "Sara Chipps",
         "biography": "Sara Chipps is a JavaScript developer based in NYC. She has been working on Software and the Open Source Community since 2001. She’s been obsessed with hardware and part of http://Nodebots.com since 2012. \r\n\r\nShe is the CEO of http://Jewelbots.com, a company dedicated towards drastically changing the number of girls entering STEM fields using hardware. \r\n\r\nShe was formerly the CTO of http://FlatironSchool.com, a school dedicated to teaching people of all ages how to build software and launch careers as software developers. \r\n\r\nIn 2010 she cofounded Girl Develop It, a non-profit focused on helping more women become software developers. Girl Develop It is in 45 cities, and has taught over 17,000 women how to build software. ",
-        "Company": "CEO, JewelBots"
+        "company": "CEO, JewelBots"
     },
     {
         "id": 182,
@@ -1561,7 +1561,7 @@ export default [
         "gender": 1,
         "name": "Scott Allen",
         "avatarUrl": "http://odetocode.com/Images/scott_allen_2.jpg",
-        "Company": "Ode to Code, LLC"
+        "company": "Ode to Code, LLC"
     },
     {
         "id": 183,
@@ -1571,10 +1571,10 @@ export default [
         "name": "Stephanie Herr",
         "biography": "Stephanie Herr is the Product Manager for Database DevOps at Redgate Software.  She has been working with Redgate for over 8 years and started as the Project Manager for SQL Source Control v1, 2, and 3.  Before that, she was a software engineer and a database developer for Lockheed Martin.  She enjoys bringing best practices from the application world to the database.  She loves working in agile environments with great teams to achieve amazing results.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/517677127970193408/WH7wUeca_400x400.jpeg",
-        "City": "State College",
-        "State": "PA",
-        "Country": "United States",
-        "Company": "Product Manager for Database DevOps, Redgate Software"
+        "city": "State College",
+        "state": "PA",
+        "country": "United States",
+        "company": "Product Manager for Database DevOps, Redgate Software"
     },
     {
         "id": 184,
@@ -1583,7 +1583,7 @@ export default [
         "gender": 1,
         "name": "Anoop Kumar",
         "avatarUrl": "https://lh5.googleusercontent.com/Lum-pi8Hya4bD6e1EXXWzajoHSrAHjsqX-u51CdYqszIwku0grIrVB4YWrDSe9EegcYx5VQO2_1VSzc2ih2sOg=w2794-h1552",
-        "Company": "Solutions Architect in Customer Success at Docker, Inc."
+        "company": "Solutions Architect in Customer Success at Docker, Inc."
     },
     {
         "id": 185,
@@ -1593,10 +1593,10 @@ export default [
         "name": "Suz Hinton",
         "biography": "Suz Hinton is a Technical Evangelist at Microsoft. Prior to her evangelist role, Suz was a frontend developer for 10+ years. She’s an avid open source contributor, writing and collaborating on libraries relating to topics such as NodeJS robotics, accessibility, and creative coding. ",
         "avatarUrl": "https://i.imgur.com/AS40Kuh.jpg",
-        "City": "Brooklyn",
-        "State": "NY",
-        "Country": "USA",
-        "Company": "Technical Evangelist, Microsoft"
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "USA",
+        "company": "Technical Evangelist, Microsoft"
     },
     {
         "id": 186,
@@ -1611,7 +1611,7 @@ export default [
         "userId": "a27a6f8d-1480-4ab1-b233-49364ff86f61",
         "gender": 1,
         "name": "Greg Baugues",
-        "Company": "Docker"
+        "company": "Docker"
     },
     {
         "id": 188,
@@ -1628,9 +1628,9 @@ export default [
         "name": "Sean Killeen",
         "biography": "Originally from the Philadelphia area, Sean has 10+ years of experience solving problems as an IT professional and developer for commercial, non-profit, and federal clients. He's currently a Managing Consultant with Excella Consulting -- he *highly* recommends you check them out. Aside from loving his work way too much, there's a good chance he's enjoying being newly married, sipping great beer, exploring the Arlington area, or singing somewhere. You can find him on Twitter at @sjkilleen or blogging not nearly often enough at SeanKilleen.com. He doesn't bite; say hi!",
         "avatarUrl": "https://seankilleen.com/images/bio-photo.jpg",
-        "City": "Arlington",
-        "State": "VA",
-        "Country": "USA"
+        "city": "Arlington",
+        "state": "VA",
+        "country": "USA"
     },
     {
         "id": 190,
@@ -1654,9 +1654,9 @@ export default [
         "name": "Santosh Hari",
         "biography": " Santosh Hari is a Microsoft Azure MVP. He is a frequent speaker at meetups and Codecamps. His day job is at Konacom, a wireless startup, where as Director of Software, he leverages his software skills to help provide high quality, affordable wireless broadband to the developing world. He also runs a software consulting company, Sand Dollar Technology, with his wife. Santosh also volunteers for Orlando .NET User Group (President) and co-organizer of Orlando Codecamp.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/970657686055395328/0GGdqqBs_400x400.jpg",
-        "City": "Lake Mary",
-        "State": "FL",
-        "Country": "United States"
+        "city": "Lake Mary",
+        "state": "FL",
+        "country": "United States"
     },
     {
         "id": 193,
@@ -1665,9 +1665,9 @@ export default [
         "gender": 1,
         "name": "Micah Stamper",
         "biography": "Micah Stamper is currently a Team Leader on Central Platforms Team at Quicken Loans. He is also a former Project Manager and Software Engineer at Quicken Loans who worked on many technology projects. He started his journey at Quicken Loans as an intern way back in the summer of 2012. He loves every aspect of technology from coding, to setting up servers, securing them, and the impact of technology on society as a whole.\r\n\r\nMicah is a passionate team player who is always willing to help others flourish by overcoming obstacles in their life and career paths. He is always willing to get a cup of coffee to talk over things!He is also passionate about process and the removal of roadblocks, whether physical or mental, to allow teams to execute at a high level.\r\n\r\nHe loves music and sports. Some favorite artists include Josh Wilson, Matt Maher, and Relient K. He is a huge fan of the Detroit Lions and University of Michigan Wolverines. #GoBlue",
-        "City": "Flat Rock",
-        "State": "MI",
-        "Country": "United States"
+        "city": "Flat Rock",
+        "state": "MI",
+        "country": "United States"
     },
     {
         "id": 194,
@@ -1677,9 +1677,9 @@ export default [
         "name": "Jessica Deen",
         "biography": "Jessica is a Cloud Developer Advocate for Microsoft focusing on Azure, Infrastructure, cloud and OSS. Prior to joining Microsoft, she spent over a decade as an IT Consultant / Systems Administrator for various corporate and enterprise environments, catering to end users and IT professionals in the San Francisco Bay Area. Jessica holds two Microsoft Certifications (MCP, MSTS), 3 CompTIA certifications (A+, Network+, and Security+), 4 Apple Certifications, and is a former 4-year Microsoft Most Valuable Professional for Windows and Devices for IT. In 2013, she also achieved her FEMA certification from the U.S Department of Homeland Security, which recognizes her leadership and influence abilities during times of crisis and emergency.\r\n\r\nWhen she's not doing something geeky, you can find her doing something active, most likely running out of breath at her local CrossFit gym. Yes, she's one of those! She also enjoys biking (motorcycles and/or bicycles), shooting, eating, reading, and hanging with her 5-year-old rescue pup.",
         "avatarUrl": "https://en.gravatar.com/userimage/14933798/260cb303c79b71685f8efec1364c0d87.png",
-        "City": "Morgan HIll",
-        "State": "CA",
-        "Country": "USA"
+        "city": "Morgan HIll",
+        "state": "CA",
+        "country": "USA"
     },
     {
         "id": 195,
@@ -1705,9 +1705,9 @@ export default [
         "name": "Ned Bellavance",
         "biography": "I am a Microsoft MVP in Azure Stack, a Pluralsight author, and an IT professional with over 15 years of experience in the industry.",
         "avatarUrl": "https://i0.wp.com/nedinthecloud.com/wp-content/uploads/2016/07/NedBellavance-WPLogo.jpg",
-        "City": "New Britain",
-        "State": "Pennsylvania",
-        "Country": "USA"
+        "city": "New Britain",
+        "state": "Pennsylvania",
+        "country": "USA"
     },
     {
         "id": 198,
@@ -1724,9 +1724,9 @@ export default [
         "name": "Baskar Rao Dandlamudi",
         "biography": "Senior .Net Consultant with over 10 years of experience developing software applications and designing solutions , I solve complex problems faced by enterprise applications on a day to day basis. Am technologist and try to keep myself updated with latest technology advancements. My interest areas include Azure, Kubernetes and NativeScript.",
         "avatarUrl": "https://pbs.twimg.com/profile_images/931026830844485632/iUYtXd-f_bigger.jpg",
-        "City": "Columbus",
-        "State": "OH",
-        "Country": "United States"
+        "city": "Columbus",
+        "state": "OH",
+        "country": "United States"
     },
     {
         "id": 200,
@@ -1735,9 +1735,9 @@ export default [
         "gender": 1,
         "name": "Todd Snyder",
         "biography": "Todd Snyder has been a software developer/architect for over 23 years. During that time, he has focused on providing technical guidance and leadership for the development of enterprise class systems on the Microsoft and Web Platforms. At Infragistics, he is a Product Architect on ReportPlus Web and Server Teams. Todd is the co-leader for the New Jersey .NET User Group, http://www.njdotnet.net/, and is a frequent speaker, book author and co-host of the Static Void Podcast – https://www.staticvoidpodcast.com/.",
-        "City": "Levittown",
-        "State": "PA",
-        "Country": "USA"
+        "city": "Levittown",
+        "state": "PA",
+        "country": "USA"
     },
     {
         "id": 201,
@@ -1753,8 +1753,8 @@ export default [
         "gender": 1,
         "name": "Dan Kelley",
         "biography": "I’m an Architect and Director at Anexinet living in Villanova, Pennsylvania. I am a fan of entrepreneurship, programming, and sports. I’m also interested in technology.\r\n\r\n",
-        "City": "Villanova",
-        "State": "PA"
+        "city": "Villanova",
+        "state": "PA"
     },
     {
         "id": 203,
@@ -1770,9 +1770,9 @@ export default [
         "gender": 1,
         "name": "Michael Golub",
         "biography": "As Anexinet’s Senior Vice President of Digital and Analytics Services, Michael oversees the innovative delivery of Anexinet’s core service offerings to empower and modernize our customers with systems of insight for competitive advantage.  Michael also heads up Anexinet’s Machine Learning Task Force and is responsible for defining our approach to Machine Learning services.\r\nMichael has been leading enterprise modernization efforts for over 20 years with a focus on applying emerging technologies and methodologies to strategic business initiatives. Prior to joining Anexinet in 2011, Michael served as Program Manager for Accenture Federal Services where his team delivered a life-saving solution to the Department of Defense that won the NDIA Top 5 DoD Systems Engineering Program Award and changed the way the Army manages technology programs. Before this, Michael lead enterprise logistics and robotics based transformations at QVC.\r\nMichael holds a BS degree in Information Studies from Drexel University and is a certified SAFe Program Consultant.  Michael also sits on Drexel University’s Data Science Industry Advisory Board.",
-        "City": "Blue Bell",
-        "State": "PA",
-        "Country": "USA"
+        "city": "Blue Bell",
+        "state": "PA",
+        "country": "USA"
     },
     {
         "id": 205,
@@ -1782,9 +1782,9 @@ export default [
         "name": "John Wright",
         "biography": "As a 18-year veteran of the software industry, I’ve gained development experience ranging from “shrink-wrapped” software to large, distributed networks using multiple platforms and technologies. I have a wide experience base with software development and management across the entire system lifecycle, including requirements gathering and analysis, architecture design, development, testing, and release. I have a pragmatic approach to and a heavy interest in continuous improvement of people, process, and product. I'm currently applying that experience as a Full-Stack Web Developer at Stack Overflow on the Internal Development team.",
         "avatarUrl": "https://wrightfully.com/Images/avatar.png",
-        "City": "Naperville",
-        "State": "Illinois",
-        "Country": "United States"
+        "city": "Naperville",
+        "state": "Illinois",
+        "country": "United States"
     },
     {
         "id": 206,
@@ -1801,9 +1801,9 @@ export default [
         "name": "Scott McAllister",
         "biography": "Scott McAllister has been building web applications in several industries for over a decade. He joined Smartsheet several years ago, building integrations with the Smartsheet API using languages like Java, Node.js, and Python. Now he's helping others learn about a wide range of web technologies. When he's not coding, writing or speaking he enjoys long walks with his wife, skipping rocks with his kids, and is happy whenever Real Salt Lake can manage a win.",
         "avatarUrl": "https://avatars3.githubusercontent.com/u/4098?s=460&v=4",
-        "City": "Seattle",
-        "State": "WA",
-        "Country": "USA"
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
     },
     {
         "id": 208,
@@ -1840,9 +1840,9 @@ export default [
         "gender": 2,
         "name": "Ivana Veliskova",
         "biography": "I am a Front End Engineer. I am also a career changer, coming from being a ballroom dance instructor. I love to code and when I'm not coding, you can find me baking delicious cookies and cakes.",
-        "City": "Philadelphia",
-        "State": "PA",
-        "Country": "USA"
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "USA"
     },
     {
         "id": 213,
@@ -1865,9 +1865,9 @@ export default [
         "gender": 1,
         "name": "Samir Behara",
         "biography": "Samir Behara is a Senior Developer with EBSCO Industries and builds software solutions using cutting edge Microsoft technologies, primarily C# and SQL Server. He is a Microsoft Data Platform MVP with over 12 years of IT experience. Samir is a frequent speaker at technical conferences and is the Co-Chapter Lead of the Steel City SQL Server UserGroup. He is the author of www.dotnetvibes.com",
-        "City": "Birmingham",
-        "State": "AL",
-        "Country": "United States"
+        "city": "Birmingham",
+        "state": "AL",
+        "country": "United States"
     },
     {
         "id": 216,
@@ -1891,9 +1891,9 @@ export default [
         "name": "Dylan Sheffer",
         "biography": "Dylan Sheffer is a web developer with a passion for accessibility and user-centered design. Outside of code, he enjoys creating cocktails, playing the Irish tin whistle, and drinking Chinese teas.",
         "avatarUrl": "https://sessionize.com/image?f=bef015cb645addcd59201277b5bc552d,200,200,True,False,1fde732d-165f-4bf4-a3ab-19d3a1e33094.jpg",
-        "City": "Staunton",
-        "State": "VA",
-        "Country": "Swift Kick"
+        "city": "Staunton",
+        "state": "VA",
+        "country": "Swift Kick"
     },
     {
         "id": 219,
@@ -1917,9 +1917,9 @@ export default [
         "name": "Andre Fernandez",
         "biography": "Annalisa Nash Fernandez is a cultural specialist and author. Drawing upon a career in international finance as an investment banker based in New York, and a corporate strategic planning director based in Brazil, she brokers the cross-cultural communication in globalization to derive value from multicultural dynamics. Fluent in Spanish and Portuguese, she has lived, worked, and studied in nine countries. Annalisa’s expert quotes on world cultures are featured in CIO magazine, the Boston Globe, Reader’s Digest, and the BBC. She is the author of Intuitive Interpreting and has widely published articles on world language and culture in leading media and academic journals. Annalisa holds an MA in translation studies, with distinguished honors, from the University of Wisconsin-Milwaukee, and a BS in international finance, cum laude, from Georgetown University and the Catholic University of Cordoba in Argentina.",
         "avatarUrl": "https://www.linkedin.com/in/annalisa-nash-fernandez-6aa4156/",
-        "City": "Riverside",
-        "State": "Connecticut",
-        "Country": "USA"
+        "city": "Riverside",
+        "state": "Connecticut",
+        "country": "USA"
     },
     {
         "id": 222,
@@ -1937,9 +1937,9 @@ export default [
         "name": "Tim Corey",
         "biography": "Professional software developer for over 20 years. Microsoft MVP. Intel Software Innovator. Software Development Teacher in person and via video. I provide free C# training at https://youtube.com/IAmTimCorey",
         "avatarUrl": "https://iamtimcorey.com/wp-content/uploads/2014/11/portrait01-e1441395576155.png",
-        "City": "Scranton",
-        "State": "PA",
-        "Country": "USA"
+        "city": "Scranton",
+        "state": "PA",
+        "country": "USA"
     },
     {
         "id": 224,
@@ -1956,9 +1956,9 @@ export default [
         "name": "Magnus Stahre",
         "biography": "Magnus Stahre is a software craftsman doing application development for over two decades.\r\n\r\nHe is currently a Software Artisan at Pillar Technology where he solves difficult problems while coaching others on techniques and tools that help developers work better.\r\n\r\nHe is also a dedicated Unix lover, having started his career as a sysadmin.\r\n",
         "avatarUrl": "https://en.gravatar.com/userimage/3090560/dccb4d4589ffc00d71ea8020f476a1ca.jpg?size=200",
-        "City": "Ann Arbor",
-        "State": "Michigan",
-        "Country": "United States"
+        "city": "Ann Arbor",
+        "state": "Michigan",
+        "country": "United States"
     },
     {
         "id": 226,
@@ -1967,9 +1967,9 @@ export default [
         "gender": 2,
         "name": "Anna Bateman",
         "biography": "Anna is a .NET Developer with a passion for collaborating and sharing ideas. Her background is diverse, working in several industries and job functions before settling into .NET development.",
-        "City": "Pennsburg",
-        "State": "PA",
-        "Country": "18073"
+        "city": "Pennsburg",
+        "state": "PA",
+        "country": "18073"
     },
     {
         "id": 227,
@@ -1979,9 +1979,9 @@ export default [
         "name": "Bernard Ablola",
         "biography": "Bernard Ablola is the founder of Think Strategy, a marketing and communications firm, located in Irvine, CA. Think Strategy focuses on B2B sales development for enterprise level clients. He is a frequent speaker on the topic of Growth Hacking and business development for SaaS companies.\r\n\r\nPrior to his role at Think Strategy, Bernard managed over $25MM in search and display advertising for Microsoft’s premier clients including McDonald’s, Toyota, Nissan, Ford and Wells Fargo.\r\n\r\nHe is an active board member for Holistic Life Foundation, Inc., a Baltimore based nonprofit, that teaches over 7,500+ children nationwide, the practice of mindfulness and yoga.\r\n\r\nHe received his BA from University of Baltimore and his MBA from Seattle University. On the weekends, you can find him hiking or skateboarding through SoCal, walking his Pomsky (Google it) or finding THE spiciest Asian food in the city. He is an avid traveler, visiting art galleries around the world, 8 countries in the last 12 months. Some of his favorite places include the Philippines, Hungary and Vienna. When in Asia, he highly recommends NOT eating the ice.”\r\n\r\nTo learn more:\r\nwww.thinkstrategy.com\r\nwww.linkedin.com/in/bernardablola",
         "avatarUrl": "https://drive.google.com/open?id=18aEGgsFMHcLcG6hS74_uqFlSYNH1j5-d",
-        "City": "Irvine",
-        "State": "California",
-        "Country": "USA"
+        "city": "Irvine",
+        "state": "California",
+        "country": "USA"
     },
     {
         "id": 228,
@@ -2012,9 +2012,9 @@ export default [
         "name": "Meghan Kelly",
         "biography": "Meghan worked in education for seven years before realizing that she could actually get paid to make flow charts in a User Experience career. She immediately jumped into learning about design and front-end development and ultimately changed careers in 2016. She’s now a UX Designer at Elsevier. As a career changer, Meghan is passionate about helping others understand and navigate the tech world and possibly even change careers themselves. She is the Events Lead Organizer for GDI Philly so she is frequently found at GDI events but also enjoys traveling, Netflixing, and looking for the best margaritas in town.",
         "avatarUrl": "https://static1.squarespace.com/static/5a274cdb1f318d38e2b3655f/t/5ac8ec9c352f53a44fbdba35/1523117220312/W0Dl9B62_400x400.jpg?format=500w",
-        "City": "Philadelphia",
-        "State": "PA",
-        "Country": "United States"
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "United States"
     },
     {
         "id": 232,
@@ -2024,8 +2024,8 @@ export default [
         "name": "Josef Richberg",
         "biography": "I have over 25 years in the world of RDBMS. I have in-depth Microsoft SQL Server, SQL Server Integration Services (SSIS), and SQL Server Analysis Services (SSAS) knowledge. I am fiercely passionate about my work.\r\n\r\nI am the creator of the Enhanced Threading Framework (ETF) for SSIS. \r\n\r\nI was awarded '2009 Exceptional DBA of the Year', by RedGate and my peers.\r\n\r\nI presented at PASS 2013 on advanced SSIS techniques:\r\nhttp://www.sqlpass.org/summit/2013/Sessions/SessionDetails.aspx?sid=4845",
         "avatarUrl": "https://www.amazon.com/clouddrive/share/HHBYNpgrVRDJoxMzDg70UQ3IrcxrL3X6FxNjukFUDyZ",
-        "City": "Scranton",
-        "State": "PA",
-        "Country": "United States"
+        "city": "Scranton",
+        "state": "PA",
+        "country": "United States"
     }
 ].map(x => Object.keys(x).reduce((acc, key) => { acc[`${key[0].toLowerCase()}${key.substr(1)}`] = x[key]; return acc; }, {}))
