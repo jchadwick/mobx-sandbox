@@ -2,7 +2,7 @@ import * as React from "react";
 import { Component } from "react";
 import { observer } from "mobx-react";
 import cn from "classnames";
-import { action, computed, reaction } from "mobx";
+import { action, computed } from "mobx";
 
 interface PagerProps {
   currentPage: number;
@@ -13,20 +13,30 @@ interface PagerProps {
 @observer
 export class Pager extends Component<PagerProps, never> {
 
+  get totalPages() {
+    return this.props.totalPages;
+  }
+
   @computed
   get displayedPages() {
     return new Array(4)
       .fill(1)
-      .reduce((pages, i, idx) => (pages.push(this.props.currentPage + idx), pages), []);
+      .reduce((pages, i, idx) => {
+        const page = this.props.currentPage + idx;
+        if(page <= this.totalPages) {
+          pages.push(page);
+        }
+        return pages;
+      }, []);
   }
 
   @action
   nextPage = () => {
     const newPage = this.props.currentPage + 1;
 
-    console.log('TotalPages: ', this.props.totalPages)
+    console.log('TotalPages: ', this.totalPages)
 
-    if (newPage > this.props.totalPages) {
+    if (newPage > this.totalPages) {
       return;
     }
 

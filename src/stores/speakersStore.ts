@@ -3,15 +3,15 @@ import { BaseStore, StoreStatus } from "./baseStore";
 import { IObservableArray, observable, computed, toJS } from "mobx";
 import { SessionsStore } from "./sessionsStore";
 import { lazyObservable, IViewModel } from "mobx-utils";
-import { SpeakersApi } from "../services";
+import * as Api from "../services";
+import { AppCache } from "../util/appCache";
 
-const ascending = (a, b) => a - b;
-const descending = (a, b) => b - a;
+const ascending = (a: Speaker, b: Speaker) => a && a.name.localeCompare(b && b.name);
 
 export class SpeakersStore extends BaseStore {
   @observable speakers: IObservableArray<Speaker> = observable([]);
 
-  getSpeakers({ page = 1, count = 10, sort = ascending, filter = null }) {
+  query({ page = 1, count = 10, sort = ascending, filter = null }) {
     const length = this.speakers.length;
     const start = Math.max((page - 1) * count, 0);
     const end = Math.min(start + count, length);
@@ -36,25 +36,50 @@ export class SpeakersStore extends BaseStore {
 
   load() {
     this.status = StoreStatus.Loading;
+    this.setSpeakers(this.loadCachedSpeakers());
+    this.setSpeakers(this.retrieveSpeakers());
+  }
 
+  private setSpeakers(speakerPromise: Promise<Api.Speaker[]>) {
     const sessionsStore = this.rootStore.getStore(SessionsStore);
 
     if (sessionsStore.status === StoreStatus.Unintialized) {
       sessionsStore.load();
     }
 
-    new SpeakersApi()
-      .speakersGet()
+    return speakerPromise
       .then(speakers =>
         speakers.map(
           x =>
             new Speaker(
               x,
-              lazyObservable(sink => sink(sessionsStore.getSessionsBySpeakerId(x.id)), [])
+              lazyObservable(
+                sink => sink(sessionsStore.getSessionsBySpeakerId(x.id)),
+                []
+              )
             )
         )
       )
-    .then(speakers => this.speakers.replace(speakers))
-    .then(() => this.status = StoreStatus.Loaded);
+      .then(speakers => this.speakers.replace(speakers))
+      .then(() => (this.status = StoreStatus.Loaded));
+  }
+
+  private retrieveSpeakers() {
+    return new Api.SpeakersApi()
+      .speakersGet()
+      .then(speakers => speakers.filter(x => !!x && !!x.key && !!x.name && x.id > 0))
+      .then(this.cacheSpeakers);
+  }
+
+  private loadCachedSpeakers() {
+    return new Promise<Api.Speaker[]>((done) => {
+      const speakers = AppCache.get<Api.Speaker[]>("speakers");
+      done(speakers);
+    });
+  }
+
+  private cacheSpeakers(speakers: Api.Speaker[]) {
+    AppCache.set("speakers", speakers);
+    return speakers;
   }
 }

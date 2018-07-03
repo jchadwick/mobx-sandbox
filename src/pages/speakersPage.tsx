@@ -7,10 +7,11 @@ import { observable, computed, action, reaction } from "mobx";
 import { Speaker } from "../model";
 import { SpeakerDetails } from "../components/speakers/speakerDetails";
 import { SpeakerDetailsEditor } from "../components/speakers/speakerDetailsEditor";
-import cn from "classnames";
 import { FormGroup, InputFormField, DropDownFormField } from "../util/forms";
 import { Pager } from "../util/pager";
 import { IViewModel } from "mobx-utils";
+import { StoreStatus } from "../stores/baseStore";
+import { LoadingPanel } from "../util/loadingPanel";
 
 @inject("speakersStore")
 @observer
@@ -19,18 +20,25 @@ export class SpeakersPage extends Component<{ speakersStore?: SpeakersStore }, n
   @observable filter: string;
   @observable mode: "view" | "edit" = "view";
   @observable currentPage: number = 1;
+  @observable pageSize = 10;
 
   @computed
   get speakers() {
-    return this.props.speakersStore.getSpeakers({
+    return this.props.speakersStore.query({
+      count: this.pageSize,
       page: this.currentPage,
       filter: this.filter
     });
   }
 
   @computed
-  get speakerCount() {
-    return this.speakers.length;
+  get totalSpeakersCount() {
+    return this.props.speakersStore.speakers.length;
+  }
+
+  @computed
+  get totalPages() {
+    return Math.ceil(this.totalSpeakersCount / this.pageSize);
   }
 
   @action nextPage = () => (this.currentPage += 1);
@@ -58,7 +66,7 @@ export class SpeakersPage extends Component<{ speakersStore?: SpeakersStore }, n
 
   render() {
     return (
-      <div>
+      <LoadingPanel loading={this.props.speakersStore.status === StoreStatus.Loading}>
         <div className="row">
           <div className="col-md-3">
             <p>
@@ -74,9 +82,12 @@ export class SpeakersPage extends Component<{ speakersStore?: SpeakersStore }, n
             <div className="text-center">
               <Pager
                 currentPage={this.currentPage}
-                totalPages={this.speakerCount / 15}
+                totalPages={this.totalPages}
                 onPageChanged={page => (this.currentPage = page)}
               />
+              <div>
+                <small>{this.totalSpeakersCount} speakers in {this.totalPages} pages</small>
+                </div>
             </div>
           </div>
 
@@ -102,7 +113,7 @@ export class SpeakersPage extends Component<{ speakersStore?: SpeakersStore }, n
             )}
           </div>
         </div>
-      </div>
+      </LoadingPanel>
     );
   }
 }

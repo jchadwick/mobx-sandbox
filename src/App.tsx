@@ -35,7 +35,6 @@ class App extends React.Component {
             </nav>
           </div>
           <div className="row">
-          {routingStore.page}
             {routingStore.page === "speakers" ? <SpeakersPage /> : <HomePage />}
           </div>
         </div>
